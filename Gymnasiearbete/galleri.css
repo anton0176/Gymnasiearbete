@@ -37,7 +37,7 @@ ul {
 
 #bilder1 {
     width: auto;
-    height: 1000px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around
@@ -51,6 +51,21 @@ ul {
 
 }
 
+
+#bilder2{
+    
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.bild2{
+    width: 250px;
+    height: 150px;
+    margin: 70px;
+    
+}
 @media (max-width: 600px) {
     ul {
         display: flex;

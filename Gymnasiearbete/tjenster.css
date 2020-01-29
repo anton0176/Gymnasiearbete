@@ -35,6 +35,45 @@ ul {
     float: right;
 }
 
+
+
+#text1{
+    width: auto;
+    display: flex;
+    justify-content: center
+    
+    
+}
+
+.p {
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+
+.del1{
+    width: auto;
+    display: flex;
+    justify-content: center
+    
+   
+    
+}
+
+.bild1{
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    
+    
+}
+
 @media (max-width: 600px) {
     ul {
         display: flex;
