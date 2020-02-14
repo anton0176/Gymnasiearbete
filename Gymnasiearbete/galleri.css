@@ -50,14 +50,16 @@ ul {
     
 
 }
-
+#main {
+    background-color: red;
+}
 
 #bilder2{
     
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .bild2{
@@ -66,6 +68,29 @@ ul {
     margin: 70px;
     
 }
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: #5D5D5D;
+    justify-content: center;
+    display: flex;
+}
+
+#logga2 {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+#f1 {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
 @media (max-width: 600px) {
     ul {
         display: flex;
@@ -83,6 +108,43 @@ ul {
     #logga {
         display: flex;
         justify-content: center;
+    }
+    #footer {
+        width: 100%;
+         !important;
+        height: auto;
+         !important;
+        background-color: #5D5D5D;
+         !important;
+        justify-content: center;
+         !important;
+        display: flex;
+         !important;
+        flex-wrap: wrap;
+         !important;
+
+    }
+
+    #logga2 {
+        margin-top: 100px;
+         !important;
+
+    }
+
+    #f1 {
+        margin-top: 20px;
+         !important;
+        width: auto;
+         !important;
+        height: auto;
+         !important;
+        padding: 20px;
+         !important;
+        font-size: 18px;
+         !important;
+        text-align: center;
+         !important;
+
     }
 }
 
