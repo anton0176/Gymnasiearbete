@@ -4,14 +4,40 @@
 
 }
 
+#all1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#all2 {
+    width: 85%;
+    height: auto;
+}
+
 body {
+    background-color: lightgray;
+}
+
+#all1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#all2 {
+    width: 80%;
+    height: auto;
     background-color: lightgray;
 }
 
 #Header {
     width: 100%;
     height: 200px;
-    background-color: #5D5D5D;
+    background-color: #f5372a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
 
@@ -19,7 +45,8 @@ body {
 
 #logga {
 
-    padding: 20px;
+    padding-top: 30px;
+    margin-left: 50px;
 
 }
 
@@ -32,7 +59,8 @@ ul {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    float: right;
+    display: flex;
+    justify-content: flex-end
 }
 
 
@@ -43,20 +71,21 @@ li {
 }
 
 #main {
-    background-color: red;
+    background-color: green;
 }
 
 li a {
-    display: block;
+   display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 
+
 }
 
 li a:hover {
-    background-color: red;
+   background-color: #751e1e;
 }
 
 
@@ -88,8 +117,7 @@ li a:hover {
 .name {
     width: 200px;
     height: 50px;
-    border-style: solid;
-    border-color: black;
+
     border-width: 2px;
     border-radius: 5px;
     background-color: white;
@@ -100,8 +128,7 @@ li a:hover {
 .info2 {
     width: 200px;
     height: 150px;
-    border-style: solid;
-    border-color: black;
+
     border-width: 2px;
     border-radius: 5px;
     background-color: white;
@@ -130,7 +157,7 @@ li a:hover {
 
 #logga2 {
     margin-top: 100px;
-    margin-right: 100px;
+
 }
 
 #f1 {
@@ -139,7 +166,7 @@ li a:hover {
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    margin-left: 100px;
+
 }
 
 #form {
@@ -152,25 +179,52 @@ li a:hover {
 
 }
 
+#from2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 #name {
-    width: 200px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
 }
 
 #email {
     width: 300px;
+    height: 50px;
+    font-size: 20px;
 }
 
 #comment {
-    width: 500px;
-    height: 250px;
+    width: 700px;
+    height: 150px;
+    font-size: 20px;
 }
 
 #input {
     width: 150px;
+    height: 50px;
+    font-size: 20px;
 }
 
 #reset {
-    width: 150px;    
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#action2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#test3 {
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+
 }
 
 @media screen and (max-width: 700px) {
@@ -198,20 +252,24 @@ li a:hover {
 
 
     ul {
-        display: flex;
+          display: flex;
         flex-direction: column;
         text-align: center;
         float: none;
+        background-color: #f5372a;
+        margin-top: 26px;
     }
 
     #Header {
-        width: 100%;
+         width: 100%;
         height: 450px;
+        background-color: white;
     }
 
     #logga {
-        display: flex;
+         display: flex;
         justify-content: center;
+         margin-left: 0;
     }
 
     #bild2 {

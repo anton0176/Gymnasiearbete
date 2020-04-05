@@ -4,6 +4,17 @@
 
 }
 
+#all1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#all2 {
+    width: 85%;
+    height: auto;
+}
+
 body {
     background-color: lightgray;
 }
@@ -11,7 +22,10 @@ body {
 #Header {
     width: 100%;
     height: 200px;
-    background-color: #5D5D5D;
+    background-color: #f5372a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
 
@@ -19,25 +33,72 @@ body {
 
 #logga {
 
-    padding: 20px;
+    padding-top: 30px;
+    margin-left: 50px;
 
 }
 
 
 
 ul {
-    list-style-type: none;
+     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    float: right;
+    display: flex;
+    justify-content: flex-end
 }
+
+
+li {
+    font-size: 20px;
+    
+
+}
+
+#main {
+    background-color: green;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #751e1e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #bilder1 {
     width: auto;
-    
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around
@@ -47,27 +108,27 @@ ul {
     width: 500px;
     height: 300px;
     margin: 50px;
-    
+
 
 }
-#main {
-    background-color: red;
-}
 
-#bilder2{
-    
+
+
+#bilder2 {
+
     width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.bild2{
+.bild2 {
     width: 250px;
     height: 150px;
     margin: 70px;
-    
+
 }
+
 #footer {
     width: 100%;
     height: 300px;
@@ -78,7 +139,7 @@ ul {
 
 #logga2 {
     margin-top: 100px;
-    margin-right: 100px;
+
 }
 
 #f1 {
@@ -87,28 +148,32 @@ ul {
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    margin-left: 100px;
+
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         float: none;
+        background-color: #f5372a;
+        margin-top: 26px;
     }
 
     #Header {
-        width: 100%;
+          width: 100%;
         height: 450px;
-        background-color: #5D5D5D;
+        background-color: white;
     }
 
     #logga {
-        display: flex;
+         display: flex;
         justify-content: center;
+         margin-left: 0;
     }
+
     #footer {
         width: 100%;
          !important;
@@ -167,5 +232,5 @@ li a {
 }
 
 li a:hover {
-    background-color: red;
+    background-color: #751e1e;
 }

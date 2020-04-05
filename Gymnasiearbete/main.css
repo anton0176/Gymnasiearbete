@@ -8,18 +8,31 @@ body {
     background-color: lightgray;
 }
 
+#all1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#all2 {
+    width: 85%;
+    height: auto;
+}
+
 #Header {
     width: 100%;
     height: 200px;
-    background-color: #5D5D5D;
-
+    background-color: #f5372a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
 }
 
 #logga {
-
-    padding: 20px;
+   padding-top: 30px;
+    margin-left: 50px;
 
 }
 
@@ -32,18 +45,20 @@ ul {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    float: right;
+    display: flex;
+    justify-content: flex-end
 }
 
 
 
 li {
     font-size: 20px;
+    
 
 }
 
 #main {
-    background-color: red;
+    background-color:#751e1e;
 }
 
 li a {
@@ -56,8 +71,16 @@ li a {
 }
 
 li a:hover {
-    background-color: red;
+    background-color: #751e1e;
 }
+
+
+
+
+
+
+
+
 
 #bild2 {
     width: 100%;
@@ -73,26 +96,7 @@ li a:hover {
 
 }
 
-#text1 {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
 
-}
-
-
-
-.texter {
-    width: 400px;
-    padding: 10px;
-    border: 4px black;
-    border-style: hidden solid hidden;
-    font-family: sans-serif;
-    font-size: 20px;
-
-}
 
 #bildWhite {
     width: 45%;
@@ -124,7 +128,7 @@ li a:hover {
 
 #logga2 {
     margin-top: 100px;
-    margin-right: 100px;
+
 }
 
 #f1 {
@@ -133,7 +137,17 @@ li a:hover {
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    margin-left: 100px;
+
+}
+
+
+#map{
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
 }
 
 @media screen and (max-width: 700px) {
@@ -151,11 +165,13 @@ li a:hover {
     #bildBlack {
         width: 100%;
         height: 45%;
+        margin-top: 50px;
     }
 
     #bildWhite {
         width: 100%;
         height: 45%;
+        margin-top: 150px;
     }
 
 
@@ -165,16 +181,21 @@ li a:hover {
         flex-direction: column;
         text-align: center;
         float: none;
+        background-color: #f5372a;
+        margin-top: 26px;
     }
 
     #Header {
         width: 100%;
         height: 450px;
+        background-color: white;
+       
     }
 
     #logga {
         display: flex;
         justify-content: center;
+         margin-left: 0;
     }
 
     #bild2 {
@@ -218,6 +239,7 @@ li a:hover {
          !important;
         flex-wrap: wrap;
          !important;
+        margin-top: 200px;
 
     }
 
